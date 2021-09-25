@@ -8,7 +8,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="quiz_game.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 <script src="quiz_game_login.js"></script>
 
 </head>
@@ -16,7 +16,7 @@
 <body background="https://static.vecteezy.com/system/resources/previews/002/058/191/non_2x/colorful-abstract-background-free-vector.jpg">
     <center>
      <span>
-        <h1>Game</h1>
+        <h1 id="game">Game</h1>
         <div class="col-lg-4 col-sm-8 col-xs-12 login_div1">
             <h1>
             Player1 login for the game
@@ -47,7 +47,7 @@
         </span>
         <br>
         <br>
-        <button id="login" class="btn btn-primary" onclick="addUser();">Login</button> 
+        <button id="login" onclick="addUser();">Login</button> 
     
         
 </center>

@@ -35,3 +35,16 @@ float: none;
 text-align: left;
 }
 
+#game
+{
+	background-color: azure;
+}
+
+#login
+{
+	background-color: azure;
+	width: 10%;
+	height: 50px;
+	font-size: x-large;
+}
+
